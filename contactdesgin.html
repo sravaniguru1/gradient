@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="styles.com">
+        <title>contact us</title>
+
+    </head>
+    <style>
+        body{
+            font-family: Arial,sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color: crimson;
+            color: cyan;
+            text-align: center;
+            padding: 1rem 0;
+
+        }
+        main{
+            padding: 2rem;
+
+        }
+        .contact-form{
+            max-width: 400px;
+            margin-bottom: 0 auto ;
+        }
+        label{
+            display: block;
+            margin-bottom:0.5rem ;
+        }
+        input,textarea{
+            width:100%;
+            padding: 0.5rem;
+            margin-bottom: 1em;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+        }
+        button{
+            background-color: darkgreen;
+            color: darkslateblue;
+            text-align: center;
+            padding: 1em 0;
+        }
+    </style>
+    <body>
+        <header>
+            <h1>contact us</h1>
+
+        </header>
+        <main>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+
+                <button type="submit">submit</button>
+            </form>
+        </main>
+        <footer>
+            <p>&copy; 2023 your company.All rights reserved.</p>
+        </footer>
+    </body>
+</html>
